@@ -3,3 +3,7 @@ vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.andr
 
 # DPM
 persist.vendor.dpm.feature=11
+
+# Telephony
+ro.telephony.sim_slots.count=2
+telephony.active_modems.max_count=2
