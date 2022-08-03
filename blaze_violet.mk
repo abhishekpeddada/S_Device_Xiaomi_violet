@@ -14,6 +14,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 IS_PHONE := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USE_PIXEL_CHARGER := true
 
 # Inherit ANX Camera
 $(call inherit-product, vendor/ANXCamera/config.mk)
