@@ -1,5 +1,5 @@
 git clone https://github.com/rdx420/S_vendor_xiaomi_violet.git -b blaze vendor/xiaomi/violet
-git clone https://github.com/rdx420/kernel_xiaomi_violet_A12.git -b twelve kernel/xiaomi/violet --depth=1
+git clone https://github.com/Panchajanya1999/msm-4.14.git -b R kernel/xiaomi/violet --depth=1
 git clone https://github.com/kdrag0n/proton-clang.git -b master prebuilts/clang/host/linux-x86/clang-proton --depth=1
 git clone https://gitlab.com/Joker-V2/android_vendor_ANXCamera.git -b twelve vendor/ANXCamera --depth=1
 rm -rf packages/resources/devicesettings
