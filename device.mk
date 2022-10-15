@@ -461,10 +461,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel
     
 # Sounds (default)
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.config.ringtone=Atria.ogg \
-    ro.config.notification_sound=Ceres.ogg \
-    ro.config.alarm_alert=Carbon.ogg
+
 
 # Telephony
 PRODUCT_PACKAGES += \
