@@ -20,7 +20,7 @@ TARGET_USE_PIXEL_CHARGER := true
 $(call inherit-product, vendor/ANXCamera/config.mk)
 
 #Gapps
-WITH_GAPPS := true
+BUILD_WITH_GAPPS := true
 
 #Blaze
 SUPERIOR_BUILD_TYPE := UNOFFICIAL
