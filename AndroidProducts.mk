@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_violet.mk
+    $(LOCAL_DIR)/stag_violet.mk
 
 COMMON_LUNCH_CHOICES := \
     stag_violet-userdebug \
