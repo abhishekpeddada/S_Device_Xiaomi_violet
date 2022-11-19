@@ -9,13 +9,14 @@
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/dot/config/common_full_phone.mk)
+$(call inherit-product, vendor/cipher/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 IS_PHONE := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USE_PIXEL_CHARGER := true
-
+CIPHER_GAPPS := true
+CIPHER_MAINTAINER := abhix202
 # Inherit ANX Camera
 $(call inherit-product, vendor/ANXCamera/config.mk)
 
@@ -27,7 +28,7 @@ DOT_BUILD_TYPE := UNOFFICIAL
 DOT_MAINTAINER := abhix202
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := dot_violet
+PRODUCT_NAME := cipher_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
