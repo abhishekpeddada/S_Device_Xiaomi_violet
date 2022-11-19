@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/stag_violet.mk
+    $(LOCAL_DIR)/cipher_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    stag_violet-userdebug \
-    stag_violet-user \
-    stag_violet-eng
+    cipher_violet-userdebug \
+    cipher_violet-user \
+    cipher_violet-eng
